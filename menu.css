@@ -35,7 +35,7 @@ h2{
 nav li{
     font-size: 2.618rem;
     color: #E5E5FF;
-    background-color:blueviolet;
+    background-color: #8A2BE2;
 }
 p{
     font-size: 1.618rem;
@@ -47,12 +47,12 @@ p{
     width: 80%;
     margin: 0 auto;
     background-color: #5C5C99;
-    color: rebeccapurple;
+    color: #F9EBEA;
 }
 header{
     border-bottom: 0.8rem solid #7A7ACC ;
     background-color: #5C5C99;
-    color: aliceblue;
+    color: #F9EBEA;
 }
 .menu-h{
     width: 100%;
@@ -117,7 +117,7 @@ header{
         }
         .menu-h a:active,
         .menu-v a:hover {
-            color: white;
+            color: #F9EBEA;
             font-weight: bold;
         }
 main{
