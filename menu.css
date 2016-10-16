@@ -87,6 +87,7 @@ header{
         .menu-h a:hover {
         	color:  #E6E6FA;
         	background-color: #9932CC;
+        	display: block;
         }
 .menu-v{
     width: 20%;
@@ -94,6 +95,7 @@ header{
     padding: 0;
     margin: 0;
     background-color: #5C5C99;
+    overflow: hidden;
 }
     .menu-v li{
     	list-style-type: none;
@@ -101,6 +103,7 @@ header{
     	display: block;
     	margin: 8px auto;
     	text-align: center;
+    	overflow: hidden;
         /* style the list items to remove the bullets 
         and line up vertically
         and take up 100% of the width of the ul */
@@ -117,7 +120,6 @@ header{
         .menu-v a:hover {
             color: white;
             font-weight: bold;
-            display: block;
         }
 main{
     width:80%;
