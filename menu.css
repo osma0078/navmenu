@@ -75,16 +75,19 @@ header{
         .menu-h a,
         .menu-h a:link,
         .menu-h a:visited{
+        	display: block;
         	width: 100%;
-        	padding: 20%;
+        	padding: 0;
+        	margin: 0;
         	text-decoration: none;
             /* style the anchors to fill the entire width of the li 
             make sure there is padding around your text */
         }
         .menu-v a:active,
         .menu-h a:hover {
-            background-color: #9932CC;
-            color:  #E6E6FA;
+        	color:  #E6E6FA;
+        	background-color: #9932CC;
+        	display: block;
         }
 .menu-v{
     width: 20%;
@@ -115,7 +118,6 @@ header{
         .menu-v a:hover {
             color: white;
             font-weight: bold;
-            display: ruby-base;
         }
 main{
     width:80%;
